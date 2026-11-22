@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cfg_tools"
+version = "1.0.0"
+authors = [
+  { name="kris_or_sasha", email="aivliev782@gmail.com" },
+]
+description = "cfg-tools for python"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    # Сюда впиши сторонние библиотеки, если твой код их использует, например:
+    # "requests>=2.28.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com"
